@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+header a{
+    text-decoration: none;
+    color: blue;
+    font-size: 30px;
+    margin: 0 40px;
+    transition: 0.3s;
+}
+header a:hover{
+    color: rgb(255, 200, 80);
+}
+header img{
+    width: 60px;
+}
+.contanier{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.slogan{
+    background: url(img/innsbruck1.png) center/cover no-repeat;
+    padding: 200px 0;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+h2{
+  color: blue;
+  font-size: 40px;
+  margin: 20px 0;
+}
+h3{
+  font-size: 35px;
+  margin: 20px 0;
+}
+.infa p{
+    font-size: 18px;
+}
+.about-numbers-list{
+    font-size: 18px;
+    list-style:"✓" ;
+    margin-left: 15px;
+}
+.about-numbers-list li{
+    padding: 5px 0;
+    padding-left: 5px ;
+}
+.numbercontent{
+    display: flex;
+    justify-content: space-between;
+}
+.reclama{
+    background-image: url(img/skier.png);
+    width: 450px;
+    background-size: cover;
+}
+.reclama p{
+    font-size: 55px;
+}
+.reclama a{
+    color: grey;
+    background: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 10px;
+    display: inline-block;
+    float: right
+}
+.weather figure{
+    border: 1px solid black;
+    text-align: center;
+}
+.weather img{
+    width: 80%;
+}
+.weather figcaption{
+    background-color: rgb(128, 127, 127);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+.galeryli{
+    padding: 0%;
+    margin: 0;
+    list-style: none;
+}
+.galeryitem{
+    display: flex;
+    align-items: center;
+    background-color: rgb(89, 252, 184);
+    margin: 20px 0;
+}
+.galeryitem p{
+     flex-grow: 1;
+     color: white;
+     font-size: 40px;
+     text-align: center;
+}
+.galerytext{
+    font-size: 18px;
+}
+table{
+    margin: 15px auto;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(48, 48, 187);
+    color: white;
+     padding: 5px 10px;
+     border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+footer{
+   background-color: cadetblue;
+}
+.footercontent{
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+.socialbotton img{
+    margin: 0 15px;
+}
+.hashtag{
+     font-weight: bolder;
+}
+table span{
+    display: none;
+}

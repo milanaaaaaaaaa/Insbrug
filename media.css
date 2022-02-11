@@ -1,0 +1,95 @@
+@media (max-width:1100px){
+    .contanier{
+        width: 85%
+    }
+    .galeryitem{
+        flex-direction: column;
+        width: 100%;
+    }
+    .galeryitem img{
+        width: 100%;
+    }
+    .galeryitem p{
+        padding: 10px 0;
+    }
+    .galeryitem:nth-child(2){
+       flex-direction:column-reverse  ;
+    }
+}
+@media (max-width:425px){
+    nav{
+        flex-direction: column;
+    }
+    header{
+        justify-content: center;
+        flex-direction: column;
+    }
+    header a{
+        font-size: 20px;
+    }
+    header img{
+        width: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .slogan{
+        padding: 100px 0;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+       font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .numbercontent{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reclama{
+        width: 90%;
+    }
+    .reclama p{
+        font-size: 25px;
+    }
+    .weather figcaption{
+        font-size: 15px;
+    }
+    .galeryitem p{
+        font-size: 25px;
+    }
+    iframe{
+        height: 225px;
+    }
+    table{
+        width: 100%;
+    }
+    table tr{
+       display: flex;
+       flex-wrap: wrap;
+       margin-bottom: 20px;
+       justify-content: center;
+    }
+    table td{
+        width: 45%;
+        padding: 0 ;
+        text-align: center;
+    }
+    table th{
+        display: none;
+    }
+    table span{
+        display: block;
+        background-color: cornflowerblue;
+        color: gainsboro;
+        width: 100%;
+    }
+    .footercontent{
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+}
